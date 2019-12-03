@@ -1,0 +1,6 @@
+CARS="bmw"
+case "$CARS" in
+      "mercedes") echo "Headquarters - Affalterbach, Germany" ;;
+       "audit") echo "Headquarters - Ingolstadt , Germany" ;;
+       "bmw")echo "Headquarters - Chennai, Tamil Nadu ,India" ;;
+esac

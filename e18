@@ -1,0 +1,16 @@
+echo -n "Enter the Linux distro name:"
+read DISTRO
+case $DISTRO in
+Ubuntu)
+echo -n "yes, it is based on Debian."
+;;
+"Linux Mint" | " Elementry os")
+echo -n "Yes, it is based on Debian."
+;;
+CentOS | Fedora | RHEL)
+echo -n "No ,it is not based on Debian"
+;;
+*)
+echo -n "Can find distro information"
+;;
+esac

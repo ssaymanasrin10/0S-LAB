@@ -1,0 +1,6 @@
+echo 'hELLO'
+if [[ $1 == 'awesome' ]];
+then 
+echo 'you are awesome'
+fi 
+echo 'Bye'
