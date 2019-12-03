@@ -1,0 +1,6 @@
+filename=info.txt
+if [ -f  $filename ]
+then
+   e8
+ else
+    echo "File not exists"

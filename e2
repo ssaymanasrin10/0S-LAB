@@ -1,0 +1,7 @@
+count=10
+if [ $count -eq 9 ]
+then 
+echo "Hello world"
+else
+  echo "Hello Os"
+fi

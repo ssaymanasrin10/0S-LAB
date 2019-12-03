@@ -1,0 +1,12 @@
+for number in 1 2 3 4 5
+do
+   echo $number
+done
+for number in {1..100}
+do 
+    echo $number
+done
+for number in {1..100..2}
+do
+   echo $i
+done
