@@ -1,0 +1,5 @@
+echo "read string"
+read str
+
+length=`expr length "$str"` 
+echo "Length of  is $length"
